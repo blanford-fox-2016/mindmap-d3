@@ -20,6 +20,10 @@ bower install
 live-server
 ```
 
+## Open Child Tree
+
+click blue cirle to open
+
 ## Endpoint
 
 | Route       | HTTP          | Description  |
