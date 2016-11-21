@@ -1,6 +1,6 @@
 var express        = require('express'),
 	app            = express(),
-	port           = process.env.PORT || 8080,
+	port           = process.env.PORT || 80,
 	bodyParser     = require('body-parser'),
 	expressLayouts = require('express-ejs-layouts'),
 	cors           = require('cors')
