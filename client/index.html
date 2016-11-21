@@ -5,11 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="http://www.freeiconspng.com/uploads/location-icon-map-png-32.png" type="image/gif">
+  <style>
+  .node circle {
+    fill: #999;
+  }
+
+  .node text {
+    font: 10px sans-serif;
+  }
+
+  .node--internal circle {
+    fill: #555;
+  }
+
+  .node--internal text {
+    text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+  }
+
+  .link {
+    fill: none;
+    stroke: #555;
+    stroke-opacity: 0.4;
+    stroke-width: 1.5px;
+  }
+  </style>
   <title>mindmap-d3</title>
 </head>
 <body>
   <div id="bar-chart"></div>
-  <div id="mind-map"></div>
+  <div id="mind-map">
+    <svg width="750" height="700"></svg>
+  </div>
 </body>
   <script src="./lib/d3/d3.js"></script>
   <script src="./lib/jquery/dist/jquery.min.js"></script>
