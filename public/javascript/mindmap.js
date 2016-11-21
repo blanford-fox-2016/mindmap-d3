@@ -17,7 +17,7 @@ function loadItAll() {
             return d.id.substring(0, d.id.lastIndexOf("."));
         });
 
-    d3.json("http://localhost:8080/api/maps", function(error, treeData) {
+    d3.json("http://ec2-54-179-157-193.ap-southeast-1.compute.amazonaws.com:8080/api/maps", function(error, treeData) {
         if (error) throw error;
 
         var root = d3.hierarchy(treeData);
