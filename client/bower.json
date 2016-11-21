@@ -1,0 +1,17 @@
+{
+  "name": "client",
+  "homepage": "https://github.com/blanford-fox-2016/mindmap-d3",
+  "authors": [
+    "Ahyana Rizky Pratama <ahyana.rizky@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
