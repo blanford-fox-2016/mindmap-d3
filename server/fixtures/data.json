@@ -1,16 +1,3 @@
-# Mindmap - Horizontal with D3.js
-### Installation
-```sh
-npm install
-```
-
-### Usage
-```sh
-npm run dev
-```
-### data.json
-```json
-
 {
     "_id": "581aff5f9e75fc508056c7d3",
     "name": "Main Idea",
@@ -59,5 +46,3 @@ npm run dev
         "name": "Creating a product"
     }]
 }
-
-```
