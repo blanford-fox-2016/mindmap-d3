@@ -1,0 +1,29 @@
+.node circle {
+  fill: #2962FF;
+  stroke: #263238;
+  stroke-opacity: 1;
+  stroke-width: 2px;
+  stroke-linecap: round;
+}
+
+.node text {
+  font: 14px sans-serif;
+}
+
+.node--internal circle {
+  fill: #82B1FF;
+  stroke-opacity: 1;
+  stroke-width: 2px;
+  stroke-linecap: round;
+}
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #263238;
+  stroke-opacity: 0.5;
+  stroke-width: 2px;
+}
